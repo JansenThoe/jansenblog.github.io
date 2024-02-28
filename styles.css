@@ -9,13 +9,15 @@
     width: 100%;
 }
 .container .row{
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 .container .row .header{
-    width: 60%;
+    width: 100%;
     text-align: center;
     margin: auto;
+    background-color:#104161;
+    height: 170px;
 }
 .container .row .header h1{
     padding-top: 30px;
@@ -26,20 +28,22 @@
     margin-top: 15px;
     font-size: 18px;
     line-height: 1.5;
-    color: #104161;
+    color: #ffffff;
 }
 .content{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+    flex-wrap: wrap;
 }
 .content .card{
-    flex: 1;
+    flex: 30%;
     margin: 50px 20px;
     box-shadow: 0 4px 14px hsl(35deg 25% 15% / 10%);
     background-color: #fff;
     border-radius: 0.5rem;
+    width: 50%;
 }
 .content .card img{
     width: 100%;
@@ -61,6 +65,7 @@
     color: #4e3707;
     line-height: 1.5;
     padding: 10px;
+    margin-bottom: 7px;
 }
 @media screen and (max-width: 768px){
     .content{
