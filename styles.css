@@ -44,6 +44,10 @@
     background-color: #fff;
     border-radius: 0.5rem;
     width: 50%;
+    transition: all .2s ease-in-out;
+}
+.content .card:hover{
+    transform: scale(1.04);
 }
 .content .card img{
     width: 100%;
