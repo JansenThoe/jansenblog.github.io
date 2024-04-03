@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jansen's Blog</title>
+    <link rel="stylesheet" type="text/css" href="aboutMe.css">
+
+    <!-- Start Import Splide Js from CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
+        integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+        integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU=" crossorigin="anonymous">
+    <!-- End Import Splide Js  -->
+
+    <!-- Applying Splide Js  -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide', {
+                type: 'loop',
+                autoplay: true,
+                interval: 2000,
+            });
+            splide.mount();
+        });
+    </script>
+    <!-- End Splide Js  -->
+
+</head>
+
+<body>
+    <div class="redirectheader">
+        <div class="navbar">
+            <a href="index.html"><img src="yt profile picture.jpg" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutMe.html">About Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section class="heor">
+        <div class="heading">
+            <h1>About Me</h1>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Jansen Thoe</h2>
+                <p>Hi! My name is Jansen Thoe. I love to play games like Rocket League, Fortnite, Chess, etc. I also
+                    like to make car edits. I also love computers, and building my setup is the reason why.
+                    This website is for the blogs or articles that I made and use my coding skills. Hope you enjoy
+                    reading my articles!</p>
+                <a href="https://www.instagram.com/jj_val11/"><button class="cta-button">Instagram</button></a>
+                <a href="https://www.tiktok.com/@j4nsen03?is_from_webapp=1&sender_device=pc"><button
+                        class="cta-button">TikTok</button></a>
+            </div>
+            <!--
+            <div class="hero-image">
+                <img src="pic 2.jpg">
+            </div>
+            -->
+        </div>
+    </section>
+
+
+    <!-- Slide Image  -->
+    <section class="container slider">
+        <div class="splide" role="group">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="pic 2.jpg"></li>
+                    <li class="splide__slide"><img src="pic3.jpg"></li>
+                    <li class="splide__slide"><img src="pic 1.jpg"></li>
+                    <li class="splide__slide"><img src="pic4.jpg"></li>
+                    <li class="splide__slide"><img src="pic5.jpg"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- End Slide Image  -->
+
+</body>
+
+</html>
