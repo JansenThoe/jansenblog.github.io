@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Jansen's Blog</title>
+  <link rel="stylesheet" href="cars.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800" rel="stylesheet" />
+
+</head>
+<body>
+  <div class="redirectheader">
+    <div class="navbar">
+        <a href="index.html"><img src="yt profile picture.jpg" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cars.html">Cars</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="other_articles.html">Other Articles</a></li>
+                <li><a href="aboutMe - Copy.html">About Me</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!--first article-->
+
+  <!--
+      - article card
+    -->
+  <article class="article-card">
+
+    <div class="img-box">
+      <img src="Penampakan-Jalan-Tol-Solo-Jogja-di-wilayah-Kecamatan-Banyudo.jpg" alt="tol-road" class="article-banner">
+    </div>
+
+
+    <div class="article-content">
+
+      <a href="#">
+        <h3 class="article-title">Boyolali's Decreasing Rice Fields</h3>
+      </a>
+      <div class="author-info">
+        <a href="#">
+          <h4 class="author-name">Jansen Thoe</h4>
+        </a>
+        <div class="publish-date">18/02/2024</div>
+      </div>
+      <p class="article-text"><p>&nbsp; &nbsp; &nbsp; &nbsp; Recently, the Solo-Jogja toll road in Indonesia, Jawa Tengah, was built and is now operational. The toll road passes through some parts of Boyolali, a nearby city of Solo. Boyolali has lots of rice fields, and building toll roads would require stacking different types and sizes of rocks on the fields. According to detik.com on 28 November of 2022, a total of 95 hectares of rice fields were affected by the toll road. Since many people in Boyolali are farmers, many people’s income will decrease.</p>
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; To combat it, we can increase crop productivity, which is the quantitative measure of crop yield in a given measure area of a field. We can do this by using better equipment like tractors, etc. Protecting the fields from pests and improving the irrigation system are some more ways to increase productivity, but there are still a lot more.</p></p>
+
+      <div class="acticle-content-footer">
+
+        <div class="author">
+          <!--<img src="./images/avatar-michelle.jpg" alt="" class="author-avater">-->
+        </div>
+
+      </div>
+
+    </div>
+
+  </article>
+  <!--
+    - internal script
+  -->
+  <script>
+
+    const shareOption = document.querySelector('.share-option');
+
+    document.querySelector('.share-button').addEventListener('click', function () {
+      this.classList.toggle('active');
+      shareOption.classList.toggle('active');
+    });
+
+  </script>
+
+  <!--
+    - ionicon link
+  -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
