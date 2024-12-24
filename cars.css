@@ -136,6 +136,7 @@ nav ul li a{
     margin-bottom: 15px;
     max-width: 500px;
     border-radius: 10px;
+    animation: fadeInUp 2s ease;
     box-shadow: 6px 6px 5px hsla(0, 0%, 0%, 0.02),
                 25px 25px 20px hsla(0, 0%, 0%, 0.03),
                 100px 100px 80px hsla(0, 0%, 0%, 0.05);
@@ -357,5 +358,15 @@ nav ul li a{
     100%{
         opacity: 1;
         transform: translateY(0px);
+    }
+}
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
     }
 }
